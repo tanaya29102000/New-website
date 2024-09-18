@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Align title to the left and links to the right */
+    align-items: center;
+    background-color: #282c34;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Ensure links are centered */
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .search-icon {
+    font-size: 1.5rem; /* Size of the search icon */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search-icon:hover {
+    color: #61dafb; /* Change color on hover */
+  }
+  

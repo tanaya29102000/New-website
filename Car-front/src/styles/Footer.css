@@ -1,0 +1,87 @@
+/* General Footer Styling */
+.footer {
+  background-color: #333; /* Dark background color */
+  color: white; /* Text color */
+  padding: 2rem 1rem; /* Padding for top/bottom and left/right */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer Content Wrapper */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of flex items to next line if needed */
+  gap: 2rem; /* Space between flex items */
+}
+
+/* Subscribe Section */
+.subscribe {
+  flex: 1; /* Takes up available space */
+  max-width: 400px; /* Limits the width */
+}
+
+.subscribe h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subscribe p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.email-input {
+  width: 100%; /* Full-width input field */
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 0.5rem; /* Space below the input */
+}
+
+.subscribe-button {
+  background-color: #61dafb; /* Bright button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.subscribe-button:hover {
+  background-color: #21a1f1; /* Darker shade on hover */
+}
+
+/* Info Links Section */
+.info-links {
+  flex: 2; /* Takes up more space */
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of flex items */
+  gap: 2rem; /* Space between items */
+}
+
+.info-links div {
+  flex: 1; /* Each section takes equal space */
+  min-width: 200px; /* Minimum width for each section */
+}
+
+.info-links h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-links p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  text-align: center; /* Centered text */
+  margin-top: 1rem; /* Space above the footer text */
+}
+
+.footer-bottom p {
+  font-size: 0.875rem;
+  margin: 0;
+}

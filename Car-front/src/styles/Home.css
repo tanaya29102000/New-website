@@ -1,0 +1,406 @@
+/* Main Home Section Styling */
+.home {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+.btn1 {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem; /* Smaller padding */
+  font-size: 0.9rem; /* Smaller font size */
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #21a1f1;
+}
+
+/* Car Park Selection Section */
+.car-park-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* Spacing between the fields */
+  margin: 2rem auto;
+  width: 80%;
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.dropdown,
+.input-field,
+.btn2 {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.dropdown,
+.input-field {
+  width: 20%; /* Adjust width as needed */
+}
+
+.btn2 {
+  background-color: #51cef8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+}
+
+.btn2:hover {
+  background-color: #49c7f5;
+}
+
+/* Savings Section with Logo and Details */
+/* Savings Section with Logo and Details */
+.savings-section {
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #25ccf6;
+  text-align: center;
+}
+
+.savings-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.savings-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Wrap items if necessary */
+}
+
+.savings-item {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff; /* Background color for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Positioning for the circle */
+}
+
+.savings-item img {
+  border-radius: 50%; /* Make the image circular */
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop image if necessary */
+  margin-bottom: 10px;
+}
+
+.savings-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.savings-item p {
+  font-size: 1rem;
+  color: #555;
+  padding: 0 10px; /* Padding for text */
+}
+
+
+/* About Us Section styles */
+.about {
+  background-color: #ecf4f6;
+  padding: 50px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.why-choose-us {
+  max-width: 600px;
+  margin: auto;
+}
+
+.read-more-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Our Services Section styles */
+/* Our Services Section */
+.services {
+  padding: 50px;
+  background-color: #20cbf1;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333; /* Dark color for contrast */
+}
+
+/* Flex container for service items */
+.services-content {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: space-between; /* Space between items */
+  gap: 20px; /* Space between items */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+/* Ensure items fit in a single row */
+.service-item {
+  flex: 1;
+  min-width: 200px; /* Minimum width for each item */
+  max-width: 300px; /* Maximum width for each item */
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* White background for readability */
+}
+
+.service-logo {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop image if necessary */
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 10px;
+}
+
+.service-item h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333; /* Dark color for the title */
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #555; /* Slightly lighter text color */
+  margin-bottom: 20px;
+}
+
+.read-more-btn {
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .services-content {
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center items on smaller screens */
+  }
+
+  .service-item {
+    max-width: 45%; /* Adjust width for smaller screens */
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-item {
+    max-width: 90%; /* Adjust width for very small screens */
+  }
+}
+
+/* Parking Options and Rates Section */
+.rates {
+  padding: 50px;
+  background-color: #e9ecef;
+}
+
+.rates h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.rates-container {
+  display: flex;
+  justify-content: space-around; /* Align items with space between */
+  flex-wrap: wrap; /* Wrap items if necessary */
+  gap: 20px; /* Spacing between items */
+  max-width: 1200px; /* Optional: limit max width for better alignment */
+  margin: 0 auto; /* Center align the container */
+}
+
+.rate-option {
+  flex: 1; /* Allow items to grow and shrink */
+  max-width: 300px; /* Optional: limit width */
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Ensure a clean background for readability */
+}
+
+.rate-option h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.rate-option h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.rate-option p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.read-more-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3;
+}
+
+/* What Our Customers Say Section */
+/* What Our Customers Say Section */
+.customers-say {
+  padding: 50px;
+  background-color: #f9f9f9; /* Light background color */
+  text-align: center;
+}
+
+.customers-say h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.customer-testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Center items vertically */
+}
+
+.testimonial-item {
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* For positioning the image */
+}
+
+.customer-image {
+  border-radius: 50%; /* Circular image */
+  width: 80px; /* Adjust size as needed */
+  height: 80px; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop image if necessary */
+  position: absolute;
+  top: -40px; /* Position the image above the text */
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid #fff; /* White border to separate image from background */
+}
+
+.testimonial-item p {
+  font-size: 1rem;
+  color: #555;
+  margin: 20px 0;
+}
+
+.testimonial-item h4 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+/* Media Queries for Mobile View */
+@media (max-width: 768px) {
+  .savings-details {
+    flex-direction: column;
+  }
+
+  .savings-item {
+    margin-bottom: 20px;
+  }
+
+  .dropdown,
+  .input-field {
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  .btn2 {
+    width: 100%;
+  }
+
+  .rates-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .rate-option {
+    margin-bottom: 20px;
+  }
+}
